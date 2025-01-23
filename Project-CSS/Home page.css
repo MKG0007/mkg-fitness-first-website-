@@ -1,14 +1,14 @@
 /* header css of the home page */
 
 body{
-    background-image: url("project-img/BG-IMAGES/ss.jfif");
+    background-image: url("/project-img/BG-IMAGES/ss.jfif");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
 }
 .navbar{
     height: 125px;
-    background-image: url("project-img/BG-IMAGES/Mk-Fitness-Logo.jpg");
+    background-image: url("/project-img/BG-IMAGES/Mk-Fitness-Logo.jpg");
     background-size: 225px 120px;
     background-repeat: no-repeat;
     border: 10px solid yellow;
