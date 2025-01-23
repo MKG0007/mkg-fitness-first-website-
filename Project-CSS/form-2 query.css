@@ -1,0 +1,95 @@
+@media only screen and (min-width:560px) and (max-width:920px){
+    body{
+        width: auto;
+        height: auto;
+    }
+    input{
+        font-size: initial;
+        text-align: center;
+        border-width: 3px;
+
+    }
+    form{
+        height: initial;
+        width: initial;
+        background-position: initial;
+        }
+    .box{
+        height: initial;
+        width: initial;
+    }
+    .font{
+        height: initial;
+        width: initial;
+    }
+    img{
+        width: 220px;
+        height: 80px;
+    }
+    h3{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width:340px) and (max-width:559px){
+    body{
+        width: auto;
+        height: auto;
+    }
+    input{
+        font-size: initial;
+        text-align: center;
+        border-width: 3px;
+    }
+    form{
+        height: initial;
+        width: initial;
+        background-position: initial;
+        }
+    .box{
+        height: initial;
+        width: initial;
+    }
+    .font{
+        height: initial;
+        width: initial;
+    }
+    h3{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 20px;
+    }
+    textarea{
+        width: 320px;
+        height: 200px;
+    }
+}
+
+
+@media only screen and (min-width: 921px) and (max-width: 1400px){
+    body{
+        width: auto;
+        height: auto;
+    }
+    input{
+        font-size: 22px;
+        text-align: center;
+        border-width: 3px;   
+    }
+    form{
+        height: initial;
+        width: initial;
+        background-position: initial;
+    }
+    .box{
+        height: initial;
+        width: initial;
+    }
+    .font{
+        height: initial;
+        width: initial;
+    }
+}

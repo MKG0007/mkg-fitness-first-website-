@@ -1,0 +1,43 @@
+body{
+    border: 10px solid black;
+}
+@media only screen and (min-width:1000px) and (max-width:1450px){
+    body{
+        background-size: auto;
+        text-align: center;
+    } 
+    img{
+        width: 962px;
+        height: 812px;
+    }
+}
+@media only screen and (min-width:640px) and (max-width:999px){
+    body{
+        background-size: auto;
+        text-align: center;
+    } 
+    img{
+        width: 600px;
+        height: 700px;
+    }
+}
+@media only screen and (min-width:500px) and (max-width:639px){
+    body{
+        background-size: auto;
+        text-align: center;
+    } 
+    img{
+        width: 460px;
+        height: 486px;
+    }
+}
+@media only screen and (min-width:340px) and (max-width:499px){
+    body{
+        background-size: auto;
+        text-align: center;
+    } 
+    img{
+        width: 299px;
+        height: 363px;
+    }
+}

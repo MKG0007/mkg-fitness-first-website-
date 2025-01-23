@@ -1,0 +1,86 @@
+@media only screen and (min-width:340px) and (max-width:920px){
+    body{
+        width: auto;
+        height: auto;
+    }
+    .nello{
+        text-align: center;
+    }
+    input{
+        font-size: initial;
+        text-align: center;
+        border-width: 3px;
+
+    }
+    form{
+        height: initial;
+        width: initial;
+        background-position: initial;
+        }
+    .box{
+        height: initial;
+        width: initial;
+    }
+    .gender{
+        height: initial;
+        width: initial;
+    }
+    .font{
+        height: initial;
+        width: initial;
+    }
+    img{
+        width: 220px;
+        height: 80px;
+    }
+    .hello{
+        text-align: center;
+    }
+    h3{
+        font-size: 15px;
+    }
+    h1{
+        font-size: 20px;
+    }
+}
+
+
+@media only screen and (min-width: 921px) and (max-width: 1400px){
+    body{
+        width: auto;
+        height: auto;
+    }
+    .nello{
+        text-align: center;
+    }
+    input{
+        font-size: 22px;
+        text-align: center;
+        border-width: 3px;   
+    }
+    form{
+        height: initial;
+        width: initial;
+        background-position: initial;
+        /* text-align: initial; */
+    }
+    .box{
+        height: initial;
+        width: initial;
+    }
+    .gender{
+        height: initial;
+        width: initial;
+    }
+    .font{
+        height: initial;
+        width: initial;
+    }
+    img{
+        width: 374px;
+        height: 105px;
+    }
+    .hello{
+        text-align: center;
+    }
+}

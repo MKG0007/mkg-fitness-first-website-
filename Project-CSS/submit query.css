@@ -1,0 +1,49 @@
+@media only screen and (min-width:340px) and (max-width:600px){
+    body{
+        width: auto;
+        height: auto;
+    }
+    img{
+        width: 335px;
+        height: 255px;
+    }
+    .hello{
+        width: 54px;
+        height: 22px;
+        background-color: lightgreen;
+        font-size: 14px;
+        border-width: 3px;
+        border-color: darkblue;
+        border-radius: 20px;
+    }
+}
+@media only screen and (min-width:580px) and (max-width:920px){
+    body{
+        width: auto;
+        height: auto;
+    }
+    img{
+        width: 560px;
+        height: 300px;
+    }
+    .hello{
+        width: 54px;
+        height: 22px;
+        background-color: lightgreen;
+        font-size: 14px;
+        border-width: 3px;
+        border-color: darkblue;
+        border-radius: 20px;
+    }
+}
+    
+@media only screen and (min-width:920px) and (max-width:1529px){
+    body{
+        width: auto;
+        height: auto;
+    }
+    img{
+        width: 904px;
+        height: 480px;
+    }
+}

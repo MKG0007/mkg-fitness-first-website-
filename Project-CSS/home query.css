@@ -1,0 +1,88 @@
+@media only screen and (min-width:640px) and (max-width:920px){
+    #kk{
+        width: 615px;
+        height: 385px;
+    }
+    .video{
+        text-align: center;
+    }
+    video{
+        width: 400px;
+        height: 300px;
+    }
+}
+@media only screen and (min-width:921px) and (max-width:1529px){
+    .video{
+        text-align: center;
+    }
+    video{
+        width: 433px;
+        height: 240px;
+    }
+    .staff{
+        margin: 29;
+    }
+
+}
+@media only screen and (min-width:400px) and (max-width:639px){
+    #kk{
+        width: 375px;
+        height: 250px;
+    }
+    .video{
+        text-align: center;
+    }
+    video{
+        width: 370px;
+        height: 220px;
+    }
+    .coach{
+        text-align: none;
+    }
+    .staff{
+        margin: 5px;
+        padding: 0;
+    }
+    .navbar{
+        height: 250px;
+        background-position-y:bottom;
+        background-position-x:center;
+    }
+    #rr{
+        width: 250px;
+        height: 86px;
+    }
+}
+@media only screen and (min-width:340px) and (max-width:399px){
+    #kk{
+        width: 300px;
+        height: 200px;
+    }
+    .video{
+        text-align: center;
+    }
+    video{
+        width: 310px;
+        height: 185px;
+    }
+    .coach{
+        text-align: none;
+    }
+    .staff{
+        margin: 5px;
+        padding: 0;
+        width: 295px;
+        height: 350px;
+    }
+    .navbar{
+        height: 250px;
+        background-position-y:center;
+        background-position-x:center;
+    }
+    #rr{
+        width: 200px;
+    }
+    .sum{
+        background-color: rgba(0, 0, 0, 0.547);
+    }
+}

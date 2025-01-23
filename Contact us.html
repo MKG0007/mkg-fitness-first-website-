@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="Project-CSS/contactus.css">
+    <link rel="stylesheet" href="Project-CSS/form-2 query.css">
+    <title>Contact us</title>
+    <style>
+        .new{
+            height: 24px;
+            width: 85px;
+            background-color: greenyellow;
+            border-radius: 20px;
+            font-size: 17px;
+        }
+    </style>
+</head>
+<body>
+    <form action="Pform2.html">
+        <div class="font">
+            <h3>NAME:-</h3>
+            <input type="Name" placeholder="Enter Your Name" class="box" required>
+            <h3><label for="box1">E-MAIL</label></h3>
+            <input type="Email" placeholder="Enter Your E-mail" class="box" required>
+        </div>
+        <div class="font">
+            <h3>PHONE NO.</h3>
+            <input type="tel" placeholder="Enter Your Number" class="box" required maxlength="10" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" />
+            <h3>LOCATION:-</h3>
+            <input type="text" placeholder="Enter Your Location" class="box">
+        </div>
+        <diV class="font">
+            <h3><label for="55">ENTER YOUR MESSAGE:-</label></h3>
+            <textarea id="55" cols="70" rows="10" placeholder="ENTER YOUR TEXT IN THIS BOX" required></textarea>
+        </div>
+        <br>
+        <div class="font">
+           <input type="reset" value="RESET" class="submit">&nbsp;&nbsp;&nbsp;&nbsp;<input type="submit" value="SUBMIT" class="new">
+        </div>
+    </form>
+</body>
+</html>

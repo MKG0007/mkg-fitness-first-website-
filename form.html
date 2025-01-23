@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="Project-CSS/Pform.css">
+    <link rel="stylesheet" href="Project-CSS/form query.css">
+    <title>FITTNESS CLUB FORM</title>
+    <style>
+        .new{
+            height: 23px;
+            width: 85px;
+            background-color: greenyellow;
+            font-size: 17px;
+        }
+    </style>
+</head>
+<body>
+    <form action="Pform2.html">
+        <div class="nello">
+            <div class="hello">
+                <img src="project-img/BG-IMAGES/LOGO-IMAGE.jfif" alt="M.K.FITNESS CLUB" width="750" height="150">
+                <h1>REGISTRATION:-</h1>
+            </div>
+            <div class="font">
+                <h3>NAME:</h3>
+                <input type="text" placeholder="Enter First Name" class="box" required>
+                <input type="text" placeholder="Enter Last Name" class="box">
+            </div> 
+            <br>
+            <div class="font">
+                <h3>PHONE NUMBER:</h3>
+                <input type="tel" name="Phone no." placeholder="Enter the Number" class="box" required maxlength="10" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');" />
+            </div>
+            <br> 
+            <div class="font">
+                <h3>EMAIL:</h3>
+                <input type="email" name="Your email" placeholder="Enter the Email" class="box" required>
+            </div>
+            <br> 
+            <div class="font">
+                <h3>DATE:</h3>
+                <input type="date" name="mydate" class="box" required>
+            </div class="font">
+            <br> 
+            <div class="font">
+                <h3>GENDER:</h3>
+                <input type="radio" name="myGender" class="gender" required>&nbsp;Male
+                <input type="radio" name="myGender" class="gender">&nbsp;Feamale
+            </div> 
+            <br>
+            <div class="font">
+                <h3>APPLICATION FEE:</h3>
+                <input type="radio" name="fee" class="gender" required>&nbsp;1 MONTHS $100 <br>
+                <input type="radio" name="fee" class="gender">&nbsp;12 MONTHS $1200 <br>
+                <input type="radio" name="fee" class="gender">&nbsp;24 MONTHS(YOU SAVE $200)$2200
+            </div>
+            <br>
+            <div class="font">
+                <input type="reset" value="RESET" class="submit">&nbsp;&nbsp;&nbsp;&nbsp;<input class="new" type="submit" value="SUBMIT">
+            </div>
+        </div>
+    </form>
+</body>
+</html>

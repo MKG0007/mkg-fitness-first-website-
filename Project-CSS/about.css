@@ -1,0 +1,51 @@
+body{
+    background-image: url(/project-img/BG-IMAGES/BACKGROUNG-4.jfif);
+    background-repeat: no-repeat;  
+    background-size: cover;
+    background-attachment: fixed;
+}
+header{
+    text-align: center;
+}
+main{
+    text-align: center;
+}
+.a{
+    text-align: center;
+}
+.a{
+    font-size: 20px;
+}
+.b{
+    background-color: white;
+}
+@media only screen and (min-width:1351px) and (max-width:1482px){
+    video{
+        height: 485px;
+        width: 875px;
+    }
+}
+@media only screen and (min-width:640px) and (max-width:1350px){
+    video{
+        height: 342px;
+        width: 601px;
+    }
+}
+@media only screen and (min-width:400px) and (max-width:639px){
+    video{
+        height: 217px;
+        width: 389px;
+    }
+    img{
+        width: 389px;
+    }
+}
+@media only screen and (min-width:300px) and (max-width:399px){
+    video{
+        height: 160px;
+        width: 285px;
+    }
+    img{
+        width: 285px;
+    }
+}
